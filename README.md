@@ -1,5 +1,23 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Database Setup
+
+Run these commands in order for local backend testing:
+
+```bash
+npm run db:migrate
+npm run db:seed
+```
+
+Useful database commands:
+
+```bash
+npm run db:generate
+npm run db:migrate
+npm run db:seed
+npm run db:studio
+```
+
 ## Getting Started
 
 First, run the development server:
